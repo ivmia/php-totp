@@ -1,0 +1,20 @@
+{
+    "name": "ivmia/totp",
+    "description": "Time-based one-time passwords (RFC 6238) in one file, no dependencies.",
+    "type": "library",
+    "license": "MIT",
+    "keywords": ["totp", "2fa", "two-factor", "otp", "rfc6238", "authenticator"],
+    "homepage": "https://github.com/ivmia/php-totp",
+    "authors": [
+        { "name": "Ivmia Teknoloji", "homepage": "https://www.ivmia.com" }
+    ],
+    "require": {
+        "php": ">=8.1"
+    },
+    "autoload": {
+        "psr-4": { "Ivmia\\Totp\\": "src/" }
+    },
+    "scripts": {
+        "test": "php tests/run.php"
+    }
+}
